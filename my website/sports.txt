@@ -1,0 +1,171 @@
+<html>
+<head>
+<title> SPORTS </title>
+<style>
+.j{
+position:fixed;
+top:30px;
+
+}
+.z{
+float:right;
+position:fixed;
+top:30px;
+right:5px;
+}
+p.fixed{
+position:fixed;
+top:300px;
+right:5px;
+color:white;
+}
+body
+{
+background:url("pic44.jpg") ;
+
+background-size:100% 100%;
+background-attachment: fixed;
+}
+a{
+text-decoration:none;
+}
+a:link{
+color:red;
+}
+a:visited{
+color:purple;
+}
+a:hover{
+color:green;
+text-decoration:underline;
+background-color:yellow;
+}
+a:active{
+color:yellow;
+text-decoration:line-through;
+}
+h2{
+text-decoration:underline;
+letter-spacing: -3px;
+}
+.c{
+border-radius:7px;
+}
+.a{
+border-radius:9px;
+color:white;
+background-color:red;
+border-color:1px solid red;
+}
+.d{
+border-radius:9px;
+color:red;
+background-color:green;
+border-color:1px solid green;
+}
+input[type=text]:hover{
+background-color:lightblue;
+}
+input[type=password]:hover{
+background-color:lightblue;
+}
+</style>
+<meta name="Sports" content="width=device-width, initial-scale=1">
+</head>
+
+<body
+
+color=red;
+
+font-size:24px>
+<img class='z' src='q.png' width='100' height='140'>
+
+
+<h1 class='j' style="text-align:center;color:blue"> <u> <span style="color:blue">S</span><span style="color:red">P</span><span style="color:yellow">O</span><span style="color:blue">R </span><span style="color:green">T</span> <span style="color:red">S</span> </u> </h1>                          
+<br><br><br><br><br><br><br><p class="fixed">www.sportsbiz.com</p>
+<dt><a href="#oo">
+
+
+<p style="font-family:algerian;text-decoration:underline;text-decoration-color:red;text-shadow:2px 2px #110000;font-size:200%;"> >FEED-BACK FORM</p></a>
+</dt>
+<dd> <h2> <b>LOG-IN here!! </b> </h2></dd>
+<form name="login">
+<pre>
+<b>User-Id:</b> <input class="c" type="text" name="userid"  /><br/>
+<b>Password:</b><input class="c" type="password" name="pswrd"/><br/>
+
+
+<input class="a" type="button" id="1" onclick="check(this.form)" value="LOG-IN"/> 
+<script> alert("REMEMBER THIS SITE IS CASE SENSITIVE!!!!") </script>
+<input class="a" type="button" id="2" onclick="gooo(this.form1)" value="CREATE ACCOUNT"/>   
+</form>
+<script language="javascript">
+function check(form) /*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "piyush" && form.pswrd.value == "12345")
+  {
+    window.open('choice.html','_self')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Wrong Password or Username")/*displays error message*/
+  }
+  
+}
+function gooo(form1)
+{
+window.open('new_user.html','_self')
+}
+</script>
+</pre>
+
+<div style="width:1200px"><marquee><h1 align="center"><span style="color:red">PAIN IS </span> <span style="color:blue">ONLY TEMPORARY ...BUT!!!</span> <span style="color:green">VICTORY IS FOREVER</span><h1></marquee></div>
+<dt>
+
+<p style="font-family:algerian;text-decoration:underline;text-decoration-color:pink;text-shadow:1px 1px #000000;font-size:200%;">!!CONTACT US:-</p>
+</dt>
+<pre align="left">
+<a name="oo">
+</a> <p style="color:red">
+<b>EMAIL ADDRESS  : piyushptiwari@gmail.com
+CONTACT NUMBER : 7889148049 </b> </p>
+</pre>
+
+<input class='a'type="button" id="2" onclick="go(this.returnn)" value="FEED-BACK FORM"/>
+<script language="javascript">
+function go(returnn)
+ 
+
+ {
+ window.open('feedback.html','_self')
+ }
+ 
+ 
+ 
+ 
+ </script> 
+ 
+<dd> <b> <p style="color:red"><u> ENJOY THE VEDIO !! HAVE A NICE DAY </u> </p> </b> </dd>
+</dl>   
+                                           
+
+<video
+width="400"
+height="300"
+align="right"
+controls="controls">
+<source
+src=euro.mp4
+type="video/mp4" />
+<object
+data="euro.mp4"
+width="500"
+height="300"
+Your Browser does not support the vedio</object>
+</video>   
+
+
+</head>
+</html> 
+

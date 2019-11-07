@@ -1,0 +1,257 @@
+body{
+	overflow-x: hidden;
+	
+}
+video{
+	position: fixed;
+	margin-top:-6%;
+    left: 50%;
+    min-width: 100%;
+    width: 101%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%);
+ 	background: url('//') no-repeat;
+	background-size: cover;
+	transition: 6s opacity;
+}
+#slider{
+	height:700px;
+	width:100%;
+}
+header{
+	box-shadow: 0px 0px 8px #111111;
+	border:1px solid #FFFFFF;
+	background-color:#272822; /*589442;272822;032745*/
+	position:fixed;
+	align-self:center;
+	height:10%;
+	width:100%;
+	top:0%;
+	left:0%;
+	transform: translateX(-0.1%);
+	z-index:100;
+}
+#sitename{
+	background:url("favicon.png") no-repeat;
+	background-size:60px 60px;
+	text-align:right;
+	font-size:1rem;
+	background-position: 0px 10px;
+	font-family: 'Josefin Slab', serif;; /*'Marck Script', cursive*/
+	border-radius:60px;
+	background-color:#032745; /*7a0000*/
+	color:snow;
+	padding: 0px 50px;
+	float:left;
+	transform: translateX(0%);
+	transition-duration: 0.5s;
+}
+a.offers{
+	font-family: comic sans ms;
+	font-weight:0;
+	font-size: 12px;
+	text-shadow: 4px 4px 8px #111111;
+	text-decoration: none;
+	text-align: center;
+	align-content: center;
+	border-radius: 8px;
+	width: 150px;
+	height: 100%;
+	color: #111111;
+	float: right;
+	margin-right: 50px;
+	margin-top: -10%;
+	background-color: red;
+	transform: rotateZ(-30deg);
+	box-shadow:0 0 8px;
+	opacity:2;
+}
+a.offers:active{
+	color:red;
+	text-shadow: 4px 4px 8px red;
+	background-color:#111111;
+	opacity:2;
+}
+#copyright{
+	text-align:center;
+	color:snow;
+}
+#nav{
+	float:left;
+	z-index:100;
+	transform: translateX(50%);
+	transform: translateY(8%);
+	transition-duration: 0.5s;
+}
+#overview{
+	margin-top:10%;
+	font-family: 'Great Vibes', cursive;
+	font-weight:100;
+	text-shadow: 4px 4px 8px #111111;
+	background: rgba(0,0,0,0.0);
+	color: white;
+	padding: 2rem;
+	font-size: 1.8rem;
+	text-align:center;
+	transition-duration: 0.5s;
+ }
+#overview-child{
+    margin-top:-2%;
+    transition-duration: 0.3s;
+}
+#social-icon{
+	float:right;
+	transform: translateY(20%);
+	transition-duration: 0.5s;
+}
+#sbox{
+	float:right;
+	transform: translateY(20%);
+}
+#content-container{
+	margin-top:15%;
+    box-shadow: 0px 0px 8px #111111;
+    border-radius: 10px;
+	width:80%;
+	left:0%;
+	float:left;
+	background-color: snow;
+	width:100%;
+	height:auto;
+	overflow-wrap:break-word;
+}
+#footer{
+	background-color:#7a0000;
+	float:left;
+	width:102%;
+	margin-left:-1%;
+}
+#address{
+	margin-left:2%;
+	margin-top:-2%;
+	transform:translateY(35%);
+}
+#abx{
+	width:80%;
+}
+a.join:link, a.join:visited{
+	align-self: center;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    transform: translateY(-85%);
+}
+a.tc:link,a.tc:visited{
+	text-decoration: none;
+	color: red;
+}
+a.copy1:link,a.copy1:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+img.rest{
+	width: 250px;
+	height:250px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 8px #111111;
+}
+#thumb-img{
+	float:left;
+	margin-left:20px;
+	background:url("haveli.jpg");
+	background-size: cover;
+	height:250px;
+	width:250px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px #111111;
+}
+a.img:link, a.img:visited {
+	vertical-align: center;
+	text-shadow: 0 0 8px #111111;
+	color:#ffffff;
+	text-decoration: none;
+	box-shadow:0 0 8px #111111;
+}
+#contact{
+	float:right;
+	transform:translateY(10px);
+	transition-duration: 0.5s;
+}
+a.link-button:link, a.link-button:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+a.link-button:hover{
+	background-color:red;
+}
+a.link-button:active{
+	transition: 5s;
+}
+img.rest:hover{
+	border: 1px solid #111111;
+	opacity: 0.5;
+}
+table,td,th{
+	border: 0px solid #111111;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+
+input[type=text],input[type=number],select,input.email-reg[type=E-mail],input.url1[type=URL]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('//');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s;
+}
+
+input[type=text]:focus,input[type=number]:focus,select:focus{
+    width: 100%;
+}
+#msging{
+	width:20%;
+	margin-top: -12%;
+	float:right;
+	margin-right: 2%;
+}
+input[type=text-area], input[type=E-mail]{
+	width:100%;
+	border-radius:2px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=submit]{
+	border-radius: 4px;
+	padding: 9px 18px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 8px #111111;s
+}
+input[type=text-area]{
+	height:auto;
+	resize:vertical;
+}
+button[type=submit]{
+	padding: 4px 8px 4px 12px;
+	box-sizing: border-box;
+	border-radius: 1px;
+	width:100%;
+}
